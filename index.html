@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hodl Info Clone</title>
+    <link rel="stylesheet" type="text/css" href="/public/styles.css">
+</head>
+<body>
+	<header>
+            <h1>Crypto Prices</h1>
+        </header>
+        <section id="best-price">
+            <p>Best Price to Trade: <span id="trade-price"></span></p>
+        </section>
+	
+	<section id="crypto-table">
+		<table>
+			<thead>
+				<tr>
+				    <th>Platform</th>
+				    <th>Last Price</th>
+				    <th>Buy Price</th>
+				    <th>Sell Price</th>
+				    <th>Volume</th>
+				    <th>Base Unit</th>
+				 </tr>
+		        </thead>
+		<tbody id="data-body">
+		 </tbody>
+		 </table>
+	</section>
+    <footer>
+        <p>Data fetched from WazirX API</p>
+    </footer>
+ <script src="/public/main.js"></script>
+</body>
+</html>
